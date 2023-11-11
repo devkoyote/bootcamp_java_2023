@@ -1,4 +1,4 @@
-package packages;
+package packages.base;
 
 import java.util.Locale;
 import java.util.Scanner;

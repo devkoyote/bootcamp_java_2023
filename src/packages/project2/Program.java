@@ -20,8 +20,31 @@ public class Program {
         product.price = sc.nextDouble();
         System.out.println("Quantidade no estoque: ");
         product.quantity = sc.nextInt();
-        System.out.println("| Nome do produto | \n" + product.name + "\n| Preço | \n" + product.price + "\n| Quantidade | \n" + product.quantity);
 
+        // recebendo a sobreposição com toString (_product_)
+        System.out.println("Dados do produto: " + product);
+
+        System.out.println();
+        System.out.print("Entre com o numero de produtos para serem adicionados no estoque: ");
+        int quantity = sc.nextInt();
+        // passa o metodo addProducts
+        product.addProducts(quantity);
+
+        System.out.println();
+        System.out.println("Dados atualizados: " + product);
+
+        System.out.println();
+        System.out.print("Entre com o numero de produtos para serem removidos no estoque: ");
+        quantity = sc.nextInt();
+        // chama metodo de remover
+        product.removeProducts(quantity);
+
+        System.out.println();
+        System.out.println("Dados atualizados: " + product);
+
+        /*
+        System.out.println("| Nome do produto | \n" + product.name + "\n| Preço | \n" + product.price + "\n| Quantidade | \n" + product.quantity);
+        */
         sc.close();
 
 

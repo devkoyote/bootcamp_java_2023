@@ -1,4 +1,4 @@
-package packages;
+package packages.base;
 
 public class Atributes {
     public static void main(String[] args) {

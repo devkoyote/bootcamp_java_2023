@@ -1,3 +1,5 @@
+package packages.base;
+
 public class TypesPrimitives {
 
     public static void main(String[] args) {

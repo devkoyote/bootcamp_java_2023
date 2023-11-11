@@ -18,4 +18,15 @@ public class Product {
         this.quantity -= quantity;
     }
 
+    // sobreposiçao mostra valor inves do ponteiro de referencia
+   public String toString() {
+       return name
+        +", R$ "
+        + String.format("%.2f", price)
+        + ", "
+        + quantity
+        + " unidades, Total: R$ "
+        + String.format("%.2f", totalValueInStock());
+   }
+
 }
