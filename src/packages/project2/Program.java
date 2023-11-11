@@ -41,7 +41,7 @@ public class Program {
 
         System.out.println();
         System.out.println("Dados atualizados: " + product);
-
+        
         /*
         System.out.println("| Nome do produto | \n" + product.name + "\n| Preço | \n" + product.price + "\n| Quantidade | \n" + product.quantity);
         */
