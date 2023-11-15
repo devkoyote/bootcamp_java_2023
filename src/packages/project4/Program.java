@@ -24,9 +24,10 @@ public class Program {
         emp.increaseSalary(perc);
         // calcula o imposto a ser cobrado
         emp.netSalary();
-        
+
         System.out.println();
-        System.out.println("Dados atualiza dos:" + emp);
+        // returna resultado
+        System.out.println("Dados atualizados do funcionário: " + emp);
         
 
 

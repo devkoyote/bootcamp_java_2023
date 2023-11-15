@@ -18,7 +18,7 @@ public class Employee {
 
     // sobreposição de dados
     public String toString() {
-        return name + ", " + "R$"+ String.format("%.2f", grossSalary) + "; "; 
+        return name + ", " + " o novo salário é R$"+ String.format("%.2f", grossSalary) + " reais liquídos; "; 
     }
 
 }
